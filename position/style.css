@@ -1,0 +1,18 @@
+#principal, #second-div {
+    height: 500px;
+}
+
+#image {
+    background: url('./hcode.svg') no-repeat;
+    width: 450px;
+    height: 150px;
+    position: sticky;
+    left: 50px;
+    top: 50px;
+}
+
+/* position: static -> Valor padrão. A posição não é alterada */
+/* position: relative -> A posição pode ser alterada. Ela é relativa a si mesma, à sua posição inicial */
+/* position: absolute -> A posição pode ser alterada. Ela é relativa ao elemento pai mais próximo que possua o position: relative ou então ao próprio navegador */
+/* position: fixed -> A posição pode ser alterada. Sua posição fica fixa na página, mesmo rolando o scroll */
+/* position: sticky -> Une o conceito de relative e fixed. Baseia-se no scroll do usuário para posicionar os elementos */
