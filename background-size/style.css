@@ -1,0 +1,10 @@
+#background-example {
+    width: 600px;
+    height: 500px;
+    background: url('./image.jpg') no-repeat;
+    background-color: #ccc;
+    /* background-size: 200px; */
+    /* background-size: contain; */
+    background-size: cover;
+    background-position: center;
+}
